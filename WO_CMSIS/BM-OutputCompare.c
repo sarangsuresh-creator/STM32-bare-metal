@@ -20,7 +20,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define RCC_CR 			 (*(volatile uint32_t *)0x40021000)
+#define RCC_CR 	         (*(volatile uint32_t *)0x40021000)
 #define RCC_CFGR     	 (*(volatile uint32_t *)0x40021004)
 #define RCC_APB2ENR      (*(volatile uint32_t *)0x40021018)
 #define RCC_AHBENR       (*(volatile uint32_t *)0x40021014)
